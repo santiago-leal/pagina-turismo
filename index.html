@@ -78,11 +78,21 @@
             </div>
         </section>
         <section class="team-member"></section>
-        <section class="contact">
-            <form action="">
-                <p>Nombre y apellido: <input type="text" name="nombre y apellido"></p>
-                <p>correo: <input type="text" name="correo"></p>
-                <p>Nombre: <textarea type="text" name="nombre"></textarea></p>
+        <section class="container  col-8 contact text-center">
+            <label class="Titulo container">Deja Tu Comentario</label>
+            <form action="" class="form">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Nombre Completo">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Correo">
+                    </div>
+                </div>
+                <textarea type="text" rows="5" class="col-12" placeholder="Comentario"
+                    style="font-size: 20px;"></textarea>
+
+                <button type="button" id="btn">Enviar</button>
             </form>
         </section>
         <footer class="footer">

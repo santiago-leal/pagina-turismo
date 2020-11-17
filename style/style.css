@@ -7,6 +7,45 @@
     background: #3cbbb1ff;
 }
 
+/**Estilos Del Formulario De Comentarios */
+.contact{
+    padding: 0%;
+    border-radius: 7px;
+    border:1.9px solid rgb(8, 8, 8);
+    box-shadow: 3px 3px 5px #999;
+    background: rgba(60, 187, 176, 0.021);
+}
+.Titulo{
+    font-weight:  bolder;
+    margin-top: 15px;
+    font-size: 35px;
+    color: #3cbbb1ff;
+}
+
+.form{ margin: 5%;}
+
+.row input ,textarea{
+    background: none;
+    font-size: 20px;
+    margin: 3%;
+    width: 100%;
+    border:none;
+    border-bottom:1.9px solid rgb(8, 8, 8);
+    outline: none;
+}
+.row input:focus ,textarea:focus{border-color: #ee4266ff; }
+
+#btn{
+    margin: 1%;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #ee4266ff;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+/*___________________________________________________________________*/
+
 /* Paleta de colores */
 
 /* CSS HEX */
