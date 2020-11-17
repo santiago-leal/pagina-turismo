@@ -9,7 +9,7 @@
 
 /**Estilos Del Formulario De Comentarios */
 .contact{
-    padding: 0%;
+    height: auto;
     border-radius: 7px;
     border:1.9px solid rgb(8, 8, 8);
     box-shadow: 3px 3px 5px #999;
@@ -27,7 +27,7 @@
 .row input ,textarea{
     background: none;
     font-size: 20px;
-    margin: 3%;
+    margin-left: 3%;
     width: 100%;
     border:none;
     border-bottom:1.9px solid rgb(8, 8, 8);
