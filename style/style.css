@@ -73,6 +73,7 @@
     border: none;
     outline: none;
 }
+#btn:hover{background-color: #3cbbb1ff;}
 /*___________________________________________________________________*/
 
 /* Paleta de colores */
