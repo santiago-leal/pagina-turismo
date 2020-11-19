@@ -7,6 +7,13 @@
     background: #3cbbb1ff;
 }
 
+/* prices to travel */
+.places-to-travel{
+    color:#ee4266ff;
+}
+
+
+
 /* team member */
 .team{
     display: flex;
