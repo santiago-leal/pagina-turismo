@@ -9,90 +9,42 @@
 
 /* estilos del contenedor de team */
 .team{
-    margin: 75px 0;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
+.custom-container {
     text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #333;  
-}
-/* .profile{
-    margin-top: 25px;
+    width: 90%;
+    padding: 10px;
 }
 
-.profile .img-box{
-    opacity: 1;
-    display: block;
-    position: relative;
+.custom-container h4 {
+    margin-bottom: 2rem;
+    font-size: 50px;
 }
 
-.profile h2{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 15px;
+.custom-container .card {
+    width: 270px;
+    height: 450px;
+    margin: 5px;
 }
 
-.profile h3{
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 15px;
+.card img {
+    width: 270px;
+    height: 200px;
+    margin-bottom: 0.5rem;
 }
 
-.img-box:after{
-    content: '';
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+.card .text{
+    padding: 5px;
 }
 
-.img-box ul{
-    margin: 0;
-    padding: 20px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    transform: translate(-50%);
-    opacity: 0;
+.text h4 {
+    font-size: 30px;
 }
 
-.img-box{
-    width: 30px;
-    height: 30px;
-    border: 1px, solid;
-    border-radius: 50%;
-    margin: 3px;
-    padding: 7px;
-    display: inline-block;
-}
 
-.img-box a{
-    color: #fff;
-}
-
-.img-box:hover:after{
-    opacity: 1;
-}
-
-.img-box:hover ul{
-    opacity: 1;
-}
- 
-.img-box a:hover li{
-    color: #007bff;
-    border: 1px solid #007bff;
-}
-
-.img-box:after, .img-box ul, .img-box ul li{
-    transition: all 0.5s ease-in-out 0s;
-} */
 
 
 /* Paleta de colores */
