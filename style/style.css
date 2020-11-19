@@ -7,7 +7,7 @@
     background: #3cbbb1ff;
 }
 
-/* estilos del contenedor de team */
+/* team member */
 .team{
     display: flex;
     justify-content: center;
@@ -44,8 +44,86 @@
     font-size: 30px;
 }
 
+/* Contact */
+.contact{
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
+.cantact-info::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #3cbbb1ff;
+    opacity: 0.9;
+}
 
+.cantact-info{
+    width: 50%;
+    position: relative;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Img/logo-contact.jpg');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center center;
+
+}
+.Titulo{
+    color: white;
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
+
+#Titulo-Grande{color: rgba(238, 66, 103, 0.767);}
+
+.form {
+    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%; 
+}
+
+.form input ,textarea{
+    background: none;
+    font-size: 20px;
+    margin-top: 3%;
+    width: 100%;
+    border:none;
+    border-bottom:2px solid rgba(8, 8, 8, 0.349);
+    outline: none;
+}
+
+input:focus ,textarea:focus{
+    border-color: #ee4266ff; 
+}
+
+#btn{
+    margin: 1%;
+    margin-top: 2%;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #3cbbb1ff;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+#btn:hover{
+    background-color: #ee4266ff;
+}
+
+/*___________________________________________________________________*/
 
 /* Paleta de colores */
 
