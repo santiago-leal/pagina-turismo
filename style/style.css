@@ -8,11 +8,57 @@
 }
 
 /* prices to travel */
-.places-to-travel{
-    color:#ee4266ff;
+.places-to-travel {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
+.places-to-travel h4{
+    margin-bottom: 3rem;
+    font-size: 50px;
+}
 
+.places-to-travel .row {
+    justify-content: center;
+}
+
+.custom-container-prices {
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+}
+
+.custom-container-prices h6 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.custom-container-prices .title {
+    width:400px;
+    height: 50px;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.custom-container-prices .card-custom{
+    width:400px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.custom-container-prices .prices{
+    text-align: right;
+    width:400px;
+    height: 50px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 
 /* team member */
 .team{
