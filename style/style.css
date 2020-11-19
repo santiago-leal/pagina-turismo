@@ -50,12 +50,13 @@
 }
 #Titulo-Grande{color: rgba(238, 66, 103, 0.767);}
 
-.form{ margin: 5%;margin-top: 7%;margin-bottom: 2%;}
+.form{ margin: 5%;margin-top: 3%;margin-bottom: 2%;}
 
 .row input ,textarea{
     background: none;
     font-size: 20px;
     margin-left: 3%;
+    margin-top: 3%;
     width: 100%;
     border:none;
     border-bottom:2px solid rgba(8, 8, 8, 0.349);
@@ -65,15 +66,15 @@
 
 #btn{
     margin: 1%;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: .375rem .75rem;
     border-radius: .25rem;
-    background-color: #ee4266ff;
+    background-color: #3cbbb1ff;
     color: #fff;
     border: none;
     outline: none;
 }
-#btn:hover{background-color: #3cbbb1ff;}
+#btn:hover{background-color: #ee4266ff;}
 /*___________________________________________________________________*/
 
 /* Paleta de colores */
