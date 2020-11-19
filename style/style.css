@@ -50,7 +50,7 @@
 }
 #Titulo-Grande{color: rgba(238, 66, 103, 0.767);}
 
-.form{ margin: 5%;margin-top: 8%;}
+.form{ margin: 5%;margin-top: 7%;margin-bottom: 2%;}
 
 .row input ,textarea{
     background: none;
