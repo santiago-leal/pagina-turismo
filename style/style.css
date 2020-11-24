@@ -182,14 +182,8 @@ input:focus ,textarea:focus{
 
 /* CSS HEX */
 /* --paradise-pink: #ee4266ff;
---russian-violet: #2a1e5cff;
---rich-black-fogra-39: #0a0f0dff;
---silver-sand: #c4cbcaff;
 --light-sea-green: #3cbbb1ff; */
 
 /* SCSS RGB */
-/* $paradise-pink: rgba(238, 66, 102, 1);
-$russian-violet: rgba(42, 30, 92, 1);
-$rich-black-fogra-39: rgba(10, 15, 13, 1);
-$silver-sand: rgba(196, 203, 202, 1);
+/* $paradise-pink: rgba(238, 66, 102, 1);;
 $light-sea-green: rgba(60, 187, 177, 1); */
