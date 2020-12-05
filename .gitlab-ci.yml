@@ -1,0 +1,12 @@
+production_deployment:
+  stage: deploy
+  image: python:latest
+  script:
+    - pip install awscli
+    - aws s3 rm --recursive s3://$AWS_BUCKET/
+    - aws s3 cp ./site s3://$AWS_BUCKET --recursive
+    - aws cloudfront create-invalidation --distribution-id E1J7ZCRS93G2N3 --paths "/"
+  only:
+    - master
+    - develoment
+  when: manual
