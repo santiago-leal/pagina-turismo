@@ -9,4 +9,3 @@ production_deployment:
   only:
     - master
     - develoment
-  when: manual
